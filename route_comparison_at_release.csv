@@ -1,0 +1,6 @@
+name,nflId,position,lineup_pos,receiver_x,receiver_y,nearest_def_id,nearest_def_name,nearest_def_x,nearest_def_y,nearest_def_dist_yd
+Mike Evans,41233,WR,RWR,46.61,31.87,52459,Trevon Diggs,50.26,26.02,6.8952882463316945
+Giovani Bernard,39985,RB,HB-R,37.69,15.17,53504,Osa Odighizuwa,34.42,20.06,5.88260146533827
+Rob Gronkowski,35481,TE,TE-L,46.88,44.67,43306,Keanu Neal,48.03,43.14,1.9140010449317941
+Antonio Brown,35634,WR,LWR,54.72,41.19,43478,Anthony Brown,55.34,42.82,1.7439323381370087
+Chris Godwin,44896,WR,SLWR,53.64,22.02,44904,Jourdan Lewis,54.39,23.31,1.4921796138535057

@@ -1,0 +1,66 @@
+{
+  "gameId": 2021090900,
+  "playId": 97,
+  "playDescription": "(13:33) (Shotgun) T.Brady pass incomplete deep right to C.Godwin.",
+  "receiver": {
+    "nflId": 44896,
+    "name": "Chris Godwin",
+    "position": "WR"
+  },
+  "defensiveTeam": "DAL",
+  "passResult_plays_csv": "I",
+  "frame_rate_fps": "undocumented in dataset -- frame numbers used, not seconds",
+  "coordinate_units": "yards",
+  "tracking_event_audit": {
+    "events_present_in_tracking": [
+      [
+        6,
+        "ball_snap"
+      ],
+      [
+        38,
+        "autoevent_passforward"
+      ],
+      [
+        40,
+        "pass_forward"
+      ]
+    ],
+    "pass_arrived_in_tracking": false,
+    "pass_outcome_tag_in_tracking": false,
+    "note": "Outcome event tags are absent from this play's tracking rows. plays.csv (passResult='I') is the independent source confirming incompletion. Absence of tracking tags does not independently confirm outcome."
+  },
+  "key_frames": {
+    "ball_snap": 6,
+    "pass_forward": 40,
+    "pass_arrived": null,
+    "last_tracked_frame": 43
+  },
+  "coordinate_verification": {
+    "frame_40_pass_forward": {
+      "godwin_x": 53.64,
+      "godwin_y": 22.02,
+      "nearest_x": 54.39,
+      "nearest_y": 23.31,
+      "separation_yd": 1.4922
+    },
+    "frame_43_last_tracked": {
+      "godwin_x": 54.37,
+      "godwin_y": 19.68,
+      "nearest_x": 55.4,
+      "nearest_y": 21.06,
+      "separation_yd": 1.722
+    }
+  },
+  "separation_at_pass_forward_yd": 1.49,
+  "nearest_defender_at_pass_forward": "Jourdan Lewis",
+  "separation_at_last_tracked_frame_yd": 1.72,
+  "nearest_defender_at_last_tracked": "Jourdan Lewis",
+  "separation_change_observed_post_release_yd": 0.23,
+  "caveats": [
+    "nearest_defender is closest DAL player by Euclidean distance; may change frame-to-frame; not necessarily scheme-assigned defender.",
+    "frame_43 is the last tracked frame with no event tag; it is not labelled as ball arrival or end of play.",
+    "no causal inference about play outcome is drawn from separation values.",
+    "frame rate is undocumented; time-in-seconds labels are omitted."
+  ]
+}

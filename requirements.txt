@@ -1,0 +1,15 @@
+# Requirements for the NFL Route Comparison Viewer
+# Generated from actual imports in viewer.py, route_comparison.py,
+# separation_explorer.py, and plot_play.py.
+#
+# Standard library modules used (not listed here):
+#   math, json, re, sys, os
+#
+# Install with:
+#   pip install -r requirements.txt
+# Or using uv:
+#   uv pip install -r requirements.txt --python .venv/bin/python
+
+pandas>=1.5
+matplotlib>=3.5
+flask>=2.2
